@@ -1,0 +1,171 @@
+.boss {
+    margin-left: 11rem;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: normal;
+}
+
+.inter-head {
+    font-size: 4.8rem;
+    font-weight: 800;
+    
+}
+.miama {
+    font-family: 'Miama', sans-serif;
+    font-size: 9rem;
+    font-weight: 400;
+    line-height: 0%;
+                                                
+}
+.intar-para {
+    font-size: 1rem;
+}
+.two {
+    margin-left: 8rem;
+}
+
+.head {
+    background-color: rgba(17, 17, 17, 1);
+}
+.fit {
+    display: flex;
+    
+ 
+  
+}
+.ness {
+    margin-left: 20rem;
+    color: rgba(230, 83, 60, 1);
+    font-size: x-large;
+    font-style: italic;
+   font-family: ;
+}
+.home {
+    display: flex;
+    margin-left: 20rem;
+   background-color: rgb(50, 49, 49);
+    border-radius: 39px;
+   margin-bottom: 2rem;
+   justify-content: center;
+   margin-top: 2rem;
+}
+.home li {
+    list-style: none;
+padding: 0.25rem 1rem;
+
+font-size: small;
+margin-right: 1rem;
+}
+.abc{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+    text-align: center;
+    
+   
+}
+.home li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+.boss {
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+}
+.dot {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color:rgba(230, 83, 60, 1) ;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: .4rem;
+   
+    
+   
+}
+
+.two {
+    position: relative;
+    display: inline-block;
+
+}
+.two img {display: block;
+    width: 100%; }
+
+
+   .btnone {
+background-color:rgba(230, 83, 60, 1) ;
+color: rgba(255, 255, 255, 1) ;
+padding: 1rem 2.5rem;
+border-radius: 2.5rem;
+cursor: pointer;
+
+   } 
+   .btntwo{
+background-color: rgba(17, 17, 17, 1);
+color: rgba(255, 255, 255, 1);
+border: .01rem solid rgba(255, 255, 255, 1);
+padding: 1rem 2.5rem;
+border-radius: 2.5rem;
+cursor: pointer;
+   }
+
+
+.btnthree {
+    background-color: rgba(48, 48, 48, 0.54);
+    color:rgba(255, 255, 255, 1) ;
+    height:4.5rem ;
+    width: 10.8rem;
+    border-radius: .75rem;
+text-align:left ;
+backdrop-filter: blur(10px);
+
+position: absolute;
+    bottom: 4.3rem;
+   left: -4.8rem;
+   cursor: pointer;
+   border: 0em;
+
+
+}
+.up {
+    text-align: center;
+    margin-top: -2.25rem;
+    margin-left: 1rem;
+    
+}
+.para {
+margin-left: 3rem;
+;
+margin-left: 3rem;
+}
+
+
+.btnfour {
+    background-color: rgba(48, 48, 48, 0.54);
+    color:rgba(255, 255, 255, 1) ;
+    height:4.5rem ;
+    width: 9.8rem;
+    position: absolute;
+left: 15rem;
+bottom: 23rem;
+text-align:left ;
+border-radius: .75rem;
+cursor: pointer;
+border: 0em;
+}
+.first-line {
+    font-size: x-large;
+    display: block;
+    font-weight: 800;
+    padding-left: 1rem;
+}
+.second-line {
+    font-size: smaller;
+    display: block;
+    line-height: 1.1;
+    padding-left: 1rem;
+}
