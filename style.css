@@ -339,6 +339,14 @@ height: 3rem;
     height: 2rem; 
     overflow: hidden;
     text-align: center;}
+
+.hyourbmi {
+    margin-left: .6rem;
+}
+.parayourbmi{
+    margin-left: .6rem;
+
+}
     #cmh {
         height: 1.8rem;
         width: 10.25rem;
@@ -392,3 +400,100 @@ height: 3rem;
 .heightsex {
     display: flex;
 }
+
+/* team */
+.hteam{
+    text-align: center;
+}
+.parateam {
+    text-align: center;
+}
+.teamphoto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(2, auto);
+    height:40.25rem ;
+    width:64.75rem ;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    gap: 1rem;
+    margin-left: 8rem;
+    padding-bottom: -7%;
+    padding-right: 5px;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: repeat(relative, minmax(150px, 2fr));
+   
+}
+
+
+.teamphoto .bell img {
+    height:70%;
+    width: 80%;
+    border-radius:10px;
+  margin-left: 35px;
+   /* display: block; */
+   /* margin-top: 20px; */
+   margin-top: 40px;
+  
+
+  
+}
+.bell h3 {
+    margin-top: -70px;
+    margin-left: 40px;
+    font-size: 1.25rem;
+    
+}
+.bell p {
+    margin-left: 40px;
+
+}
+
+
+    .teamphoto .bell .beli{
+        margin-top: -50px;
+        height: 104%;
+    }
+
+    .footer {
+        display: flex;
+        gap: 5rem;
+       justify-content: center;
+       background-color:rgba(255, 255, 255, 0.1) ;
+       margin-top: 70px;
+    }
+   
+.fone h1 {
+    color: rgba(230, 83, 60, 1);
+    font-size: 4.7rem;
+    font-style: italic;
+}
+.fone p {
+  color: rgba(255, 255, 255, 0.5); 
+  font-size:.875rem ;
+}
+.ftwo {
+  color:  rgba(255, 255, 255, 0.5);
+  padding-top: 40px;
+  font-size: 1.5rem;
+}
+.fthree{
+    color:  rgba(255, 255, 255, 0.5);
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+.ftwo h3{
+    font-size: 2rem;
+    color:rgba(255, 255, 255, 1) ;
+
+}
+.fthree h3 {
+    font-size: 2rem;
+    color:rgba(255, 255, 255, 1) ;
+}
+.footer-line p {
+    color:  rgba(255, 255, 255, 0.5);
+    
+    font-size: 1.5rem;
+      }
