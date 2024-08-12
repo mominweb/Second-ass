@@ -27,7 +27,9 @@
 .two {
     margin-left: 8rem;
 }
-
+.two img {
+    width: 100%;
+}
 .head {
     background-color: rgba(17, 17, 17, 1);
 }
@@ -52,6 +54,57 @@
    margin-bottom: 2rem;
    justify-content: center;
    margin-top: 2rem;
+}
+/* media querry  */
+@media screen and (max-width: 576px) {
+    .inter-head {
+        font-size: 1.2rem;
+        font-weight: 800;
+        }
+        .miama {
+            font-size: 3rem;
+        }
+        .home {
+         
+        }
+        .boss{
+            display: flex;
+            flex-direction: column;
+            
+            
+           
+
+        }
+        .one {
+            padding-left: -9rem;
+            text-align: start;
+            margin: 0%;
+        }
+        .two {
+            /* padding-right: 7rem; */
+            
+            margin-left: -.5rem;
+        }
+        .two img {
+            width: 100%;
+            /* margin-top: 1rem;
+            margin-right: 7rem; */
+            height: 100%;
+
+        }
+        .btntwo{
+            /* margin-left: 11rem; */
+        }
+        .btnthree{
+            margin-bottom: 11rem;
+            margin-left: 5rem;
+
+        }
+        .btnfour{
+            margin-bottom: 9rem;
+            margin-left: -1rem;
+        }
+
 }
 .home li {
     list-style: none;
@@ -184,6 +237,7 @@ border: 0em;
 }
 .access{
     font-size: .75rem;
+    color:rgba(255, 255, 255, 0.5) ;
     
 }
 .movement {
@@ -196,10 +250,33 @@ border: 0em;
     display: flex;
     padding-top: 2rem;
 }
+
+@media screen and (max-width: 576px){
+.change{
+    text-align: center;
+}
+    .movement ul{
+        flex-direction: column;
+    }
+
+
+}
 .movement ul li {
     color: rgba(255, 255, 255, 1);
     text-align: center;
     font-size: smaller;
+}
+.paratime {
+    color:rgba(255, 255, 255, 0.5) ;
+}
+.paratimeone {
+    color:rgba(255, 255, 255, 0.5) ;
+}
+.paratimetwo {
+    color:rgba(255, 255, 255, 0.5) ;
+}
+.paratimethree {
+    color:rgba(255, 255, 255, 0.5) ;
 }
 .time {
     border-radius: 50%;
@@ -213,6 +290,9 @@ border: 0em;
 .timethree{
     border-radius: 50%;
 }
+
+
+
 .run ul {
     display: flex;
     gap: 3rem;
@@ -230,6 +310,19 @@ border: 0em;
     margin-bottom: 17rem; */
     
     
+}
+@media screen and (max-width: 576px){
+    .extraul {
+        display: flex;
+        flex-direction: column;
+        height: 531px;
+        width: 353px;
+        margin-left: -40px;
+    }
+    .extraul li{
+        margin-left: -45px;
+
+    } 
 }
 .run{
     width:70rem ;
@@ -251,6 +344,10 @@ border: 0em;
 .imgcrop {
 padding-left: 4rem;
 }
+/* .imgcrop img {
+    transition: transform 0.3s ease;
+    transform: scale(1.5);
+} */
 .extra {
  
     padding-left: 6rem;
@@ -259,6 +356,7 @@ padding-left: 4rem;
 }
 .paraex{
     padding-left: 6rem;
+    color:rgba(255, 255, 255, 0.5) ;
 }
 .btnex {
     background-color:rgba(230, 83, 60, 1) ;
@@ -277,6 +375,22 @@ padding-left: 4rem;
 
 .bmi {color: rgba(255, 255, 255, 1);
     padding-left: 28rem;
+}
+.pbmi{
+    color:rgba(255, 255, 255, 0.5) ;
+}
+@media screen and (max-width: 576px){
+    .bmi{
+       margin-left: -25rem;
+    }
+    .calculator{
+        flex-direction: column;
+    }
+    .yourbmi {
+        padding-left: 2.75rem;
+    }
+
+
 }
 .calculator{color: rgba(255, 255, 255, 1);
     background-color: rgba(34, 34, 34, 1);
@@ -345,6 +459,7 @@ height: 3rem;
 }
 .parayourbmi{
     margin-left: .6rem;
+    color: rgba(255, 255, 255, 0.5);
 
 }
     #cmh {
@@ -407,6 +522,8 @@ height: 3rem;
 }
 .parateam {
     text-align: center;
+    color:  rgba(255, 255, 255, 0.5);
+
 }
 .teamphoto {
     display: grid;
@@ -455,12 +572,45 @@ height: 3rem;
         margin-top: -50px;
         height: 104%;
     }
+    @media screen and (max-width: 576px){
+        .teamphoto{
+            grid-template-columns: 1fr;
+            height: 1188px;
+            width: 353;
+            gap: 10px;
+            margin-left: -20px;
+            
+            
+        }
+        .bell {
+            height: 313px;
+            width: 272px;
+            margin:0;
+            padding: 0;
+        }
+        #russel {
+            display: none;
+        }
+        #Steward{
+            margin-top: -5rem;
+        }
+        #Cameron {
+            margin-top: -1rem;
+        }
+        #Webb {
+            margin-top: 1rem;
+        }
+    }
 
+    /* footer */
+    footer {
+        background-color:rgba(255, 255, 255, 0.1) ;
+    }
     .footer {
         display: flex;
         gap: 5rem;
        justify-content: center;
-       background-color:rgba(255, 255, 255, 0.1) ;
+       /* background-color:rgba(255, 255, 255, 0.1) ; */
        margin-top: 70px;
     }
    
@@ -494,6 +644,11 @@ height: 3rem;
 }
 .footer-line p {
     color:  rgba(255, 255, 255, 0.5);
-    
-    font-size: 1.5rem;
+    /* background-color:rgba(255, 255, 255, 0.1)  ; */
+    font-size: 1.25rem;
+    text-align: center;
+    padding-bottom: 1rem;
+      }
+      footer hr {border:1px solid rgba(255, 255, 255, 0.5) ;
+        width: 66.2rem;
       }
