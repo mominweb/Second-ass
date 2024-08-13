@@ -1,7 +1,12 @@
 .boss {
     margin-left: 11rem;
 }
-
+.menu{
+    display: none;
+}
+.fit i {
+   color:snow ;
+}
 .inter {
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -65,21 +70,33 @@
             font-size: 3rem;
         }
         .home {
-         
+         display: none;
+        }
+        .ness {
+            margin-left: -.1px;
+            
+        }
+        .menu{
+            display:block;
+            height: 2rem;
+            margin-left: 27rem;
+            margin-top: 1rem;
         }
         .boss{
             display: flex;
             flex-direction: column;
-            
+           margin-left: -1px;
+           /* height: 285px; */
+           /* width: 129px; */
             
            
 
         }
-        .one {
-            padding-left: -9rem;
+        /* .one .intar-para {
+            margin-left: -12rem;
             text-align: start;
             margin: 0%;
-        }
+        } */
         .two {
             /* padding-right: 7rem; */
             
@@ -90,19 +107,31 @@
             /* margin-top: 1rem;
             margin-right: 7rem; */
             height: 100%;
+            margin-left: 2px;
 
+        }
+        .one p{
+            margin-left: 10px;
+        }
+        .one h1 {
+            margin-left: 10px;
+        }
+        .btnone{
+            border: none;
+            margin-left: 5px;
         }
         .btntwo{
             /* margin-left: 11rem; */
+            border: none;
         }
         .btnthree{
-            margin-bottom: 11rem;
-            margin-left: 5rem;
+            margin-bottom: 19rem;
+            margin-left: 6rem;
 
         }
         .btnfour{
-            margin-bottom: 9rem;
-            margin-left: -1rem;
+            margin-bottom: 19rem;
+            margin-left: 4rem;
         }
 
 }
@@ -257,6 +286,7 @@ border: 0em;
 }
     .movement ul{
         flex-direction: column;
+        margin-left: -4rem;
     }
 
 
@@ -454,8 +484,86 @@ height: 3rem;
     overflow: hidden;
     text-align: center;}
 
+
+    /* challenge  */
+
+
+    .workout {
+        
+width: 1060px;
+height: 782px;
+margin-left: 120px;
+border-radius: 20px;
+margin-top: 40px;
+    }
+.workout h1 {
+color:rgba(255, 255, 255, 1) ;
+text-align: center;
+}
+.workout p {
+    color:rgba(255, 255, 255, .5) ;
+    text-align: center;
+    }
+    .workout img{
+        width: 900px;
+        height: 550px;
+        border-radius: 20px;
+       
+        margin-top: 2rem;
+        margin-left: 5rem;
+        
+    }
+    .workout .find {
+ position: relative;
+ margin-bottom: 5px;
+margin-left: 28rem;
+background-color: rgba(230, 83, 60, 1);
+border: none;
+color: rgba(255, 255, 255, 1);
+border-radius: 20px;
+height: 2.5rem;
+    width: 10.5rem;
+    cursor: pointer;
+
+}
+@media screen and (max-width: 576px){
+    .workout {
+        
+        width: 400px;
+        height: 700px;
+        /* margin-left: 120px; */
+        border-radius: 20px;
+        margin-top: 40px;
+
+            }
+            .workout img{
+           /* display: none; */
+           width: 420px;
+           height: 390px;
+margin-left: -40px;
+margin-top: 5rem;
+margin-bottom: ;
+            }
+            .workout .find{
+                margin-left: 6rem;
+                margin-top: 5px;
+                
+            }
+
+            .workout h1{
+                margin-left: -1rem;
+            }
+            .workout p{
+                margin-left: -1rem;
+            }
+
+}
+
+
+
 .hyourbmi {
     margin-left: .6rem;
+    
 }
 .parayourbmi{
     margin-left: .6rem;
@@ -576,17 +684,18 @@ height: 3rem;
         .teamphoto{
             grid-template-columns: 1fr;
             height: 1188px;
-            width: 353;
+            width: 353px;
             gap: 10px;
-            margin-left: -20px;
+            margin-left: 7rem;
             
             
         }
         .bell {
             height: 313px;
             width: 272px;
-            margin:0;
+            margin-left: 2.5rem;
             padding: 0;
+            justify-items: center;
         }
         #russel {
             display: none;
@@ -613,7 +722,34 @@ height: 3rem;
        /* background-color:rgba(255, 255, 255, 0.1) ; */
        margin-top: 70px;
     }
-   
+    @media screen and (max-width: 576px) {
+        .footer{
+            flex-direction: column;
+            gap: 2px;
+            text-align: start;
+        }
+        footer hr 
+        {
+           
+            max-width: 22.5rem;
+        }
+        .fone{
+            margin-left: 2rem;
+
+        }
+        .fone p {
+            line-height: 1.5rem;
+        }
+        .ftwo{margin-left: 2rem;
+            margin-top: -4.5rem;
+            
+
+        }
+        .fthree{margin-left: 2rem;
+            margin-top: -4.5rem;
+        
+        }
+    }
 .fone h1 {
     color: rgba(230, 83, 60, 1);
     font-size: 4.7rem;
